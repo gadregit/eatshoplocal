@@ -39,7 +39,7 @@
                                 <color key="textColor" red="0.19607843137254902" green="0.33333333333333331" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XiM-5R-aJc">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XiM-5R-aJc">
                                 <rect key="frame" x="35" y="241" width="250" height="115"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
@@ -103,6 +103,7 @@
                             <constraint firstAttribute="centerX" secondItem="uD1-tY-HRV" secondAttribute="centerX" id="0II-T2-M3c"/>
                             <constraint firstItem="Rw8-TQ-kpJ" firstAttribute="top" secondItem="uD1-tY-HRV" secondAttribute="bottom" constant="63" id="0KT-3x-cOp"/>
                             <constraint firstItem="xOx-nj-Xsx" firstAttribute="top" secondItem="i1e-Ps-Ocs" secondAttribute="bottom" constant="16" id="QCu-Ce-Vsq"/>
+                            <constraint firstItem="XiM-5R-aJc" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="35" id="TL9-h7-fWm"/>
                             <constraint firstItem="gbH-Jn-0ER" firstAttribute="top" secondItem="xOx-nj-Xsx" secondAttribute="bottom" constant="18" id="XUd-W9-GFu"/>
                             <constraint firstAttribute="centerX" secondItem="gbH-Jn-0ER" secondAttribute="centerX" id="YeW-wb-5cN"/>
                             <constraint firstItem="uD1-tY-HRV" firstAttribute="top" secondItem="XiM-5R-aJc" secondAttribute="bottom" constant="19" id="arK-8r-Ahf"/>
@@ -138,29 +139,17 @@
                                 <rect key="frame" x="100" y="20" width="120" height="120"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BackgroundImage" translatesAutoresizingMaskIntoConstraints="NO" id="iz7-ai-CU0">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="OfferBackgroundImage" translatesAutoresizingMaskIntoConstraints="NO" id="iz7-ai-CU0">
                                 <rect key="frame" x="0.0" y="148" width="320" height="420"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="50% OFF ENTREE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ge8-qe-9z5">
-                                <rect key="frame" x="13" y="230" width="295" height="108"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="617-WX-YQb">
+                                <rect key="frame" x="40" y="500" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="34"/>
-                                <color key="textColor" red="0.1764705882352941" green="0.29019607843137252" blue="0.40392156862745099" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Like" translatesAutoresizingMaskIntoConstraints="NO" id="W4B-XY-3mG">
-                                <rect key="frame" x="8" y="410" width="100" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Dislike" translatesAutoresizingMaskIntoConstraints="NO" id="dQw-O5-xtD">
-                                <rect key="frame" x="211" y="410" width="100" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Dislike" translatesAutoresizingMaskIntoConstraints="NO" id="C0o-k1-YXE">
-                                <rect key="frame" x="135" y="435" width="50" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.50980392156862742" green="0.82352941176470584" blue="0.94901960784313721" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -191,10 +180,9 @@
     </scenes>
     <resources>
         <image name="BackgroundImage" width="640" height="960"/>
-        <image name="Dislike" width="183" height="188"/>
-        <image name="Like" width="175" height="175"/>
         <image name="LoginWithFacebook" width="230" height="55"/>
         <image name="Logo" width="120" height="120"/>
+        <image name="OfferBackgroundImage" width="639" height="679"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
