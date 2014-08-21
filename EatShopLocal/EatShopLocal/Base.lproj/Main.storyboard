@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="iH2-Cf-S1S">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="LoginViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="i1e-Ps-Ocs"/>
+                        <viewControllerLayoutGuide type="bottom" id="pZM-rF-m3K"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BackgroundImage" translatesAutoresizingMaskIntoConstraints="NO" id="3JZ-ny-Jf5">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="xOx-nj-Xsx">
+                                <rect key="frame" x="100" y="36" width="120" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="Itg-mN-6oi"/>
+                                    <constraint firstAttribute="height" constant="120" id="yXP-54-Jwb"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EAT.SHOP.LOCAL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gbH-Jn-0ER">
+                                <rect key="frame" x="44" y="174" width="232" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="63" id="244-FV-au8"/>
+                                    <constraint firstAttribute="width" constant="232" id="CAg-m3-DqP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="27"/>
+                                <color key="textColor" red="0.19607843137254902" green="0.33333333333333331" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XiM-5R-aJc">
+                                <rect key="frame" x="35" y="241" width="250" height="115"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Username" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LMS-Rs-vsj">
+                                        <rect key="frame" x="12" y="16" width="225" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-MediumItalic" family="Helvetica Neue" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="msl-2p-0jO">
+                                        <rect key="frame" x="0.0" y="56" width="250" height="1"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5c6-Io-GBc">
+                                        <rect key="frame" x="12" y="70" width="225" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-MediumItalic" family="Helvetica Neue" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="go"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="115" id="NpW-2b-fcF"/>
+                                    <constraint firstAttribute="width" constant="250" id="j8G-W4-01U"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rw8-TQ-kpJ">
+                                <rect key="frame" x="45" y="493" width="230" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="HUB-Nf-Y00"/>
+                                    <constraint firstAttribute="width" constant="230" id="Y8G-Jl-PDb"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="LoginWithFacebook">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="gqq-6E-bRh" kind="push" identifier="loginWithFacebookSegue" id="vNb-g5-OcV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uD1-tY-HRV">
+                                <rect key="frame" x="45" y="375" width="230" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="dQG-LJ-v9V"/>
+                                    <constraint firstAttribute="width" constant="230" id="h3p-4v-PQi"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="LoginWithFacebook">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="gqq-6E-bRh" kind="push" identifier="loginSegue" id="IyW-WY-qpf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="uD1-tY-HRV" secondAttribute="centerX" id="0II-T2-M3c"/>
+                            <constraint firstItem="Rw8-TQ-kpJ" firstAttribute="top" secondItem="uD1-tY-HRV" secondAttribute="bottom" constant="63" id="0KT-3x-cOp"/>
+                            <constraint firstItem="xOx-nj-Xsx" firstAttribute="top" secondItem="i1e-Ps-Ocs" secondAttribute="bottom" constant="16" id="QCu-Ce-Vsq"/>
+                            <constraint firstItem="gbH-Jn-0ER" firstAttribute="top" secondItem="xOx-nj-Xsx" secondAttribute="bottom" constant="18" id="XUd-W9-GFu"/>
+                            <constraint firstAttribute="centerX" secondItem="gbH-Jn-0ER" secondAttribute="centerX" id="YeW-wb-5cN"/>
+                            <constraint firstItem="uD1-tY-HRV" firstAttribute="top" secondItem="XiM-5R-aJc" secondAttribute="bottom" constant="19" id="arK-8r-Ahf"/>
+                            <constraint firstAttribute="centerX" secondItem="xOx-nj-Xsx" secondAttribute="centerX" id="ie4-R2-cKG"/>
+                            <constraint firstItem="pZM-rF-m3K" firstAttribute="top" secondItem="Rw8-TQ-kpJ" secondAttribute="bottom" constant="20" id="nL8-fc-oMx"/>
+                            <constraint firstAttribute="centerX" secondItem="Rw8-TQ-kpJ" secondAttribute="centerX" id="nkK-gG-NkF"/>
+                            <constraint firstItem="XiM-5R-aJc" firstAttribute="top" secondItem="gbH-Jn-0ER" secondAttribute="bottom" constant="4" id="ubN-OC-7dH"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="C2O-7v-BuQ"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="backgroundView" destination="XiM-5R-aJc" id="MEu-mo-ESy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="661" y="127"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="LJB-Xj-cC8">
+            <objects>
+                <viewController id="gqq-6E-bRh" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Bs5-f2-pej"/>
+                        <viewControllerLayoutGuide type="bottom" id="zhy-4C-WNn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gu7-RJ-YY1">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="3Rs-c4-fjY">
+                                <rect key="frame" x="100" y="20" width="120" height="120"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BackgroundImage" translatesAutoresizingMaskIntoConstraints="NO" id="iz7-ai-CU0">
+                                <rect key="frame" x="0.0" y="148" width="320" height="420"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="50% OFF ENTREE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ge8-qe-9z5">
+                                <rect key="frame" x="13" y="230" width="295" height="108"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="34"/>
+                                <color key="textColor" red="0.1764705882352941" green="0.29019607843137252" blue="0.40392156862745099" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Like" translatesAutoresizingMaskIntoConstraints="NO" id="W4B-XY-3mG">
+                                <rect key="frame" x="8" y="410" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Dislike" translatesAutoresizingMaskIntoConstraints="NO" id="dQw-O5-xtD">
+                                <rect key="frame" x="211" y="410" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Dislike" translatesAutoresizingMaskIntoConstraints="NO" id="C0o-k1-YXE">
+                                <rect key="frame" x="135" y="435" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.50980392156862742" green="0.82352941176470584" blue="0.94901960784313721" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Siy-lB-mmR"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="epT-hK-uRo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1128" y="127"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="hzH-Ik-Rcb">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="iH2-Cf-S1S" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="yYw-2L-zdj">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="3sR-UX-DDt"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="213-9T-pO3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="93" y="127"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="BackgroundImage" width="640" height="960"/>
+        <image name="Dislike" width="183" height="188"/>
+        <image name="Like" width="175" height="175"/>
+        <image name="LoginWithFacebook" width="230" height="55"/>
+        <image name="Logo" width="120" height="120"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="vNb-g5-OcV"/>
+    </inferredMetricsTieBreakers>
+</document>
