@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D51C4052-97A0-48EF-B18C-B7A4B3264EE7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>EatShopLocal</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F139D237-BDA9-409C-B6FE-4A0E0A98393F</key>
+		<string>https://github.com/gadregit/eatshoplocal.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>EatShopLocal/EatShopLocal.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F139D237-BDA9-409C-B6FE-4A0E0A98393F</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/gadregit/eatshoplocal.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F139D237-BDA9-409C-B6FE-4A0E0A98393F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F139D237-BDA9-409C-B6FE-4A0E0A98393F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>EatShopLocal</string>
+		</dict>
+	</array>
+</dict>
+</plist>

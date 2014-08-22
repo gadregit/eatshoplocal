@@ -183,6 +183,9 @@
                                 <state key="normal" backgroundImage="Location">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="aKf-Yp-Mbv" kind="push" id="d1v-QX-UP1"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.50980392156862742" green="0.82352941176470584" blue="0.94901960784313721" alpha="1" colorSpace="calibratedRGB"/>
@@ -208,6 +211,37 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="epT-hK-uRo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1128" y="127"/>
+        </scene>
+        <!--Location View Controller-->
+        <scene sceneID="rNb-yn-F1F">
+            <objects>
+                <viewController id="aKf-Yp-Mbv" customClass="LocationViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dy1-b3-kmC"/>
+                        <viewControllerLayoutGuide type="bottom" id="fga-aQ-OcW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Qf7-nG-piB">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Tib-iN-bCu">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="aKf-Yp-Mbv" id="mrZ-Is-Ntc"/>
+                                </connections>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="R4h-T7-ZX1"/>
+                    <connections>
+                        <outlet property="mapView" destination="Tib-iN-bCu" id="hKZ-0F-13s"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gIg-oB-QXL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1523" y="127"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="hzH-Ik-Rcb">
@@ -235,7 +269,6 @@
         <image name="Location" width="500" height="500"/>
         <image name="Login" width="230" height="55"/>
         <image name="LoginWithFacebook" width="230" height="55"/>
-        <image name="Logo" width="120" height="120"/>
         <image name="Logo" width="120" height="120"/>
         <image name="OfferBackgroundImage" width="639" height="679"/>
     </resources>

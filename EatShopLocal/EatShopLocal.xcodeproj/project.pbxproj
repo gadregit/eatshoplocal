@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B1BB88AA19A7515400F23B6B /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1BB88A919A7515400F23B6B /* LocationViewController.m */; };
+		B1BB88AC19A751AC00F23B6B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1BB88AB19A751AC00F23B6B /* CoreLocation.framework */; };
+		B1BB88AE19A751B500F23B6B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1BB88AD19A751B500F23B6B /* MapKit.framework */; };
 		B1CE45BF19A5D4E60087914E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1CE45BE19A5D4E60087914E /* Foundation.framework */; };
 		B1CE45C119A5D4E60087914E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1CE45C019A5D4E60087914E /* CoreGraphics.framework */; };
 		B1CE45C319A5D4E60087914E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1CE45C219A5D4E60087914E /* UIKit.framework */; };
@@ -34,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B1BB88A819A7515400F23B6B /* LocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationViewController.h; sourceTree = "<group>"; };
+		B1BB88A919A7515400F23B6B /* LocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationViewController.m; sourceTree = "<group>"; };
+		B1BB88AB19A751AC00F23B6B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B1BB88AD19A751B500F23B6B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		B1CE45BB19A5D4E60087914E /* EatShopLocal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EatShopLocal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1CE45BE19A5D4E60087914E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B1CE45C019A5D4E60087914E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,6 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1BB88AE19A751B500F23B6B /* MapKit.framework in Frameworks */,
+				B1BB88AC19A751AC00F23B6B /* CoreLocation.framework in Frameworks */,
 				B1CE45C119A5D4E60087914E /* CoreGraphics.framework in Frameworks */,
 				B1CE45C319A5D4E60087914E /* UIKit.framework in Frameworks */,
 				B1CE45BF19A5D4E60087914E /* Foundation.framework in Frameworks */,
@@ -101,6 +110,8 @@
 		B1CE45BD19A5D4E60087914E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B1BB88AD19A751B500F23B6B /* MapKit.framework */,
+				B1BB88AB19A751AC00F23B6B /* CoreLocation.framework */,
 				B1CE45BE19A5D4E60087914E /* Foundation.framework */,
 				B1CE45C019A5D4E60087914E /* CoreGraphics.framework */,
 				B1CE45C219A5D4E60087914E /* UIKit.framework */,
@@ -119,6 +130,8 @@
 				B1CE45D419A5D4E60087914E /* LoginViewController.m */,
 				B1CE45D619A5D4E60087914E /* Images.xcassets */,
 				B1CE45C519A5D4E60087914E /* Supporting Files */,
+				B1BB88A819A7515400F23B6B /* LocationViewController.h */,
+				B1BB88A919A7515400F23B6B /* LocationViewController.m */,
 			);
 			path = EatShopLocal;
 			sourceTree = "<group>";
@@ -252,6 +265,7 @@
 				B1CE45D519A5D4E60087914E /* LoginViewController.m in Sources */,
 				B1CE45CF19A5D4E60087914E /* AppDelegate.m in Sources */,
 				B1CE45CB19A5D4E60087914E /* main.m in Sources */,
+				B1BB88AA19A7515400F23B6B /* LocationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +474,7 @@
 				B1CE45EF19A5D4E60087914E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B1CE45F019A5D4E60087914E /* Build configuration list for PBXNativeTarget "EatShopLocalTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +483,7 @@
 				B1CE45F219A5D4E60087914E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
