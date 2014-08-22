@@ -76,7 +76,7 @@
                                     <constraint firstAttribute="height" constant="55" id="HUB-Nf-Y00"/>
                                     <constraint firstAttribute="width" constant="230" id="Y8G-Jl-PDb"/>
                                 </constraints>
-                                <state key="normal" backgroundImage="LoginWithFacebook">
+                                <state key="normal" backgroundImage="Login">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -135,23 +135,73 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="3Rs-c4-fjY">
-                                <rect key="frame" x="100" y="20" width="120" height="120"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="3Rs-c4-fjY">
+                                <rect key="frame" x="117" y="20" width="73" height="77"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="77" id="ayg-6r-sog"/>
+                                    <constraint firstAttribute="width" constant="73" id="wFK-Zs-qqj"/>
+                                </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="OfferBackgroundImage" translatesAutoresizingMaskIntoConstraints="NO" id="iz7-ai-CU0">
-                                <rect key="frame" x="0.0" y="148" width="320" height="420"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="OfferBackgroundImage" translatesAutoresizingMaskIntoConstraints="NO" id="iz7-ai-CU0">
+                                <rect key="frame" x="0.0" y="105" width="320" height="463"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="463" id="XNu-th-yAZ"/>
+                                    <constraint firstAttribute="width" constant="320" id="jfP-kc-eau"/>
+                                </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="617-WX-YQb">
-                                <rect key="frame" x="40" y="500" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="617-WX-YQb">
+                                <rect key="frame" x="6" y="436" width="112" height="112"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="112" id="hDn-Ss-r3M"/>
+                                    <constraint firstAttribute="width" constant="112" id="ill-uf-vle"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="Like">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b6A-KL-D9I">
+                                <rect key="frame" x="201" y="436" width="112" height="112"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="112" id="6Vm-Ud-eZr"/>
+                                    <constraint firstAttribute="height" constant="112" id="i4L-DT-HPQ"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="Dislike">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="POp-D1-JMw">
+                                <rect key="frame" x="120" y="452" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="9cz-jI-9lc"/>
+                                    <constraint firstAttribute="width" constant="80" id="u2w-F1-N2N"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="Location">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.50980392156862742" green="0.82352941176470584" blue="0.94901960784313721" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="3Rs-c4-fjY" firstAttribute="leading" secondItem="gu7-RJ-YY1" secondAttribute="leading" constant="117" id="0l3-S9-iKU"/>
+                            <constraint firstItem="iz7-ai-CU0" firstAttribute="leading" secondItem="gu7-RJ-YY1" secondAttribute="leading" id="1E6-VY-aUG"/>
+                            <constraint firstAttribute="centerY" secondItem="3Rs-c4-fjY" secondAttribute="centerY" constant="225.5" id="71Y-Od-6yp"/>
+                            <constraint firstItem="zhy-4C-WNn" firstAttribute="top" secondItem="617-WX-YQb" secondAttribute="bottom" constant="20" id="AL7-qB-bWO"/>
+                            <constraint firstItem="zhy-4C-WNn" firstAttribute="top" secondItem="POp-D1-JMw" secondAttribute="bottom" constant="36" id="IUZ-PW-kCw"/>
+                            <constraint firstItem="POp-D1-JMw" firstAttribute="leading" secondItem="617-WX-YQb" secondAttribute="trailing" constant="2" id="M8P-MF-m1p"/>
+                            <constraint firstItem="zhy-4C-WNn" firstAttribute="top" secondItem="b6A-KL-D9I" secondAttribute="bottom" constant="20" id="ONY-P0-xGy"/>
+                            <constraint firstItem="b6A-KL-D9I" firstAttribute="leading" secondItem="POp-D1-JMw" secondAttribute="trailing" constant="1" id="R7p-jL-EPj"/>
+                            <constraint firstItem="iz7-ai-CU0" firstAttribute="top" secondItem="3Rs-c4-fjY" secondAttribute="bottom" constant="8" symbolic="YES" id="Rfg-4O-QuZ"/>
+                            <constraint firstItem="Bs5-f2-pej" firstAttribute="top" secondItem="3Rs-c4-fjY" secondAttribute="bottom" constant="-77" id="Wpc-64-BS9"/>
+                            <constraint firstAttribute="trailing" secondItem="b6A-KL-D9I" secondAttribute="trailing" constant="7" id="YIy-gw-jWQ"/>
+                            <constraint firstItem="617-WX-YQb" firstAttribute="leading" secondItem="gu7-RJ-YY1" secondAttribute="leading" constant="6" id="YwW-X2-2Hy"/>
+                            <constraint firstItem="Bs5-f2-pej" firstAttribute="top" secondItem="3Rs-c4-fjY" secondAttribute="bottom" constant="-77" id="iHB-p6-BC4"/>
+                            <constraint firstItem="iz7-ai-CU0" firstAttribute="top" secondItem="3Rs-c4-fjY" secondAttribute="bottom" constant="8" id="tJB-KN-KDy"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Siy-lB-mmR"/>
                 </viewController>
@@ -180,7 +230,12 @@
     </scenes>
     <resources>
         <image name="BackgroundImage" width="640" height="960"/>
+        <image name="Dislike" width="224" height="224"/>
+        <image name="Like" width="224" height="224"/>
+        <image name="Location" width="500" height="500"/>
+        <image name="Login" width="230" height="55"/>
         <image name="LoginWithFacebook" width="230" height="55"/>
+        <image name="Logo" width="120" height="120"/>
         <image name="Logo" width="120" height="120"/>
         <image name="OfferBackgroundImage" width="639" height="679"/>
     </resources>
