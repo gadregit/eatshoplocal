@@ -10,6 +10,7 @@
 		B1BB88AA19A7515400F23B6B /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1BB88A919A7515400F23B6B /* LocationViewController.m */; };
 		B1BB88AC19A751AC00F23B6B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1BB88AB19A751AC00F23B6B /* CoreLocation.framework */; };
 		B1BB88AE19A751B500F23B6B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1BB88AD19A751B500F23B6B /* MapKit.framework */; };
+		B1C57F1919ACC26700C786FA /* OfferViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C57F1819ACC26700C786FA /* OfferViewController.m */; };
 		B1CE45BF19A5D4E60087914E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1CE45BE19A5D4E60087914E /* Foundation.framework */; };
 		B1CE45C119A5D4E60087914E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1CE45C019A5D4E60087914E /* CoreGraphics.framework */; };
 		B1CE45C319A5D4E60087914E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1CE45C219A5D4E60087914E /* UIKit.framework */; };
@@ -24,6 +25,8 @@
 		B1CE45E019A5D4E60087914E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1CE45C219A5D4E60087914E /* UIKit.framework */; };
 		B1CE45E819A5D4E60087914E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1CE45E619A5D4E60087914E /* InfoPlist.strings */; };
 		B1CE45EA19A5D4E60087914E /* EatShopLocalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1CE45E919A5D4E60087914E /* EatShopLocalTests.m */; };
+		B1E1C68619ADD5BE000F0E7C /* ProductsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E1C68519ADD5BE000F0E7C /* ProductsViewController.m */; };
+		B1E1C68919ADD782000F0E7C /* ProductCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E1C68819ADD782000F0E7C /* ProductCustomCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +44,8 @@
 		B1BB88A919A7515400F23B6B /* LocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationViewController.m; sourceTree = "<group>"; };
 		B1BB88AB19A751AC00F23B6B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		B1BB88AD19A751B500F23B6B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B1C57F1719ACC26700C786FA /* OfferViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OfferViewController.h; sourceTree = "<group>"; };
+		B1C57F1819ACC26700C786FA /* OfferViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OfferViewController.m; sourceTree = "<group>"; };
 		B1CE45BB19A5D4E60087914E /* EatShopLocal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EatShopLocal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1CE45BE19A5D4E60087914E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B1CE45C019A5D4E60087914E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,6 +65,10 @@
 		B1CE45E519A5D4E60087914E /* EatShopLocalTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EatShopLocalTests-Info.plist"; sourceTree = "<group>"; };
 		B1CE45E719A5D4E60087914E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B1CE45E919A5D4E60087914E /* EatShopLocalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EatShopLocalTests.m; sourceTree = "<group>"; };
+		B1E1C68419ADD5BE000F0E7C /* ProductsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductsViewController.h; sourceTree = "<group>"; };
+		B1E1C68519ADD5BE000F0E7C /* ProductsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductsViewController.m; sourceTree = "<group>"; };
+		B1E1C68719ADD782000F0E7C /* ProductCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCustomCell.h; sourceTree = "<group>"; };
+		B1E1C68819ADD782000F0E7C /* ProductCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCustomCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,12 +135,18 @@
 				B1CE45CD19A5D4E60087914E /* AppDelegate.h */,
 				B1CE45CE19A5D4E60087914E /* AppDelegate.m */,
 				B1CE45D019A5D4E60087914E /* Main.storyboard */,
+				B1C57F1719ACC26700C786FA /* OfferViewController.h */,
+				B1C57F1819ACC26700C786FA /* OfferViewController.m */,
 				B1CE45D319A5D4E60087914E /* LoginViewController.h */,
 				B1CE45D419A5D4E60087914E /* LoginViewController.m */,
 				B1CE45D619A5D4E60087914E /* Images.xcassets */,
 				B1CE45C519A5D4E60087914E /* Supporting Files */,
 				B1BB88A819A7515400F23B6B /* LocationViewController.h */,
 				B1BB88A919A7515400F23B6B /* LocationViewController.m */,
+				B1E1C68419ADD5BE000F0E7C /* ProductsViewController.h */,
+				B1E1C68519ADD5BE000F0E7C /* ProductsViewController.m */,
+				B1E1C68719ADD782000F0E7C /* ProductCustomCell.h */,
+				B1E1C68819ADD782000F0E7C /* ProductCustomCell.m */,
 			);
 			path = EatShopLocal;
 			sourceTree = "<group>";
@@ -262,9 +277,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1C57F1919ACC26700C786FA /* OfferViewController.m in Sources */,
+				B1E1C68919ADD782000F0E7C /* ProductCustomCell.m in Sources */,
 				B1CE45D519A5D4E60087914E /* LoginViewController.m in Sources */,
 				B1CE45CF19A5D4E60087914E /* AppDelegate.m in Sources */,
 				B1CE45CB19A5D4E60087914E /* main.m in Sources */,
+				B1E1C68619ADD5BE000F0E7C /* ProductsViewController.m in Sources */,
 				B1BB88AA19A7515400F23B6B /* LocationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,7 +11,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.backgroundView.layer.cornerRadius =  10.0f;
 }
 
 - (void)didReceiveMemoryWarning
