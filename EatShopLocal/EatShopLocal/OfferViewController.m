@@ -19,6 +19,7 @@
 {
     [super viewDidLoad];
     NSLog(@"These are my changes not tracked.");
+    NSLog(@"Added one more log to the origin.");
 }
 
 - (void)didReceiveMemoryWarning
