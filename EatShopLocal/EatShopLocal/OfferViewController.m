@@ -18,7 +18,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
+    NSLog(@"These are my changes not tracked.");
 }
 
 - (void)didReceiveMemoryWarning

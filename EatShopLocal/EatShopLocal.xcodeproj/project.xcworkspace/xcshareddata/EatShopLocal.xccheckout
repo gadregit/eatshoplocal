@@ -10,31 +10,31 @@
 	<string>EatShopLocal</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>F139D237-BDA9-409C-B6FE-4A0E0A98393F</key>
+		<key>AB7ACE0AC48ABF9672B34C78891DFAF06EDAF2B9</key>
 		<string>https://github.com/gadregit/eatshoplocal.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>EatShopLocal/EatShopLocal.xcodeproj/project.xcworkspace</string>
+	<string>EatShopLocal/EatShopLocal.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>F139D237-BDA9-409C-B6FE-4A0E0A98393F</key>
+		<key>AB7ACE0AC48ABF9672B34C78891DFAF06EDAF2B9</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/gadregit/eatshoplocal.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>F139D237-BDA9-409C-B6FE-4A0E0A98393F</string>
+	<string>AB7ACE0AC48ABF9672B34C78891DFAF06EDAF2B9</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>F139D237-BDA9-409C-B6FE-4A0E0A98393F</string>
+			<string>AB7ACE0AC48ABF9672B34C78891DFAF06EDAF2B9</string>
 			<key>IDESourceControlWCCName</key>
-			<string>EatShopLocal</string>
+			<string>eatshoplocal</string>
 		</dict>
 	</array>
 </dict>
