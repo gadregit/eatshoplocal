@@ -20,6 +20,7 @@
     [super viewDidLoad];
     NSLog(@"These are my changes not tracked.");
     NSLog(@"Added one more log to the origin.");
+    NSLog(@"Added the statement for newly created brancgh EatShopLocalScanning.");
 }
 
 - (void)didReceiveMemoryWarning
